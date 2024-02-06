@@ -4,6 +4,10 @@ svg {
     /* stroke: red;
     fill: red; */
   }
+  svg use svg{
+    width: 100%;
+    height: auto;
+  }
 
 body{
     
