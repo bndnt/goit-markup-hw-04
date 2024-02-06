@@ -330,6 +330,15 @@ margin-right: 24px;
 .methody__block:last-child{
     margin-right: 0;
 }
+.methody__icon-cover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
 .methody__icon-cover svg{
  fill: red;
 }
