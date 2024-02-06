@@ -509,3 +509,21 @@ letter-spacing: 0.32px;
 .footer__info{
     max-width: 264px;
 }
+.footer__flex{
+    display: flex;
+    align-items: baseline;
+
+}
+.footer__info-cover{
+    margin-right: 120px;
+}
+.footer__contacts-text{
+    color:  #FFF;
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+margin-bottom: 16px;
+}
