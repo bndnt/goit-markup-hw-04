@@ -512,7 +512,6 @@ letter-spacing: 0.32px;
 .footer__flex{
     display: flex;
     align-items: baseline;
-
 }
 .footer__info-cover{
     margin-right: 120px;
