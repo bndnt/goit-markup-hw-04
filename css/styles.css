@@ -167,6 +167,9 @@ header{
 border-bottom: 1px solid #E7E9FC;
 background-color:  #FFF;
 }
+.head{
+    box-shadow: зі значенням 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
 .head__flex{
     
 }
@@ -203,9 +206,28 @@ header .container{
 }
 .head-nav__li{
     margin-right: 40px;
-    position: relative;
 }
-.head-nav__li::after{
+
+
+.head-nav__li:last-child{
+    margin-right: 0;
+}
+
+.head-nav__link{
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height:  150% ;
+letter-spacing: 0.32px;
+transition: all .4s;
+color: #2e2f42;
+padding: 24px 0;
+display: inline-block;
+transition-property:all .4s;
+position: relative;
+}
+.head-nav__link::after{
     content: '';
     position: absolute;
     width: 100%;
@@ -217,27 +239,12 @@ header .container{
     display: none;
     transition-property:all .4s;
 }
-.head-nav__li.active::after{
+.head-nav__link.active{
+    color: #404bbf;
+}
+.head-nav__link.active::after{
     display: block;
 }
-.head-nav__li:last-child{
-    margin-right: 0;
-}
-
-.head-nav__link{
-    font-family: 'Roboto', sans-serif;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height:  150% ;
-letter-spacing: 0.32px;
-transition: all .4s;
-color: #2e2f42;
-padding: 24px 0;
-display: inline-block;
-transition-property:all .4s;
-}
-
 .head-nav__link:hover,
 .head-nav__link:focus {
     color: #404bbf;
