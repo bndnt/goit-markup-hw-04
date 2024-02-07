@@ -533,3 +533,6 @@ margin-bottom: 16px;
 .footer__soc-link:focus{
     background-color: #31d0aa;
 }
+.footer__icon{
+    fill: #f4f4fd;
+}
