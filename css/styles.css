@@ -61,10 +61,6 @@ img {
     display: block;
 }
 
-address {
-   
-}
-
 /* Form */
 
 input, textarea, button, select {
@@ -242,19 +238,19 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .head__info{
     font-style: normal;
     margin-left: auto;
-};
+}
 
 .head-info__link{
 font-family: 'Roboto', sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
-line-height: 150%; /* 150% */
+line-height: 150%; 
 letter-spacing: 0.32px;
 transition: all .4s;
 color: #434455;
 display: inline-block;
-transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .head-info__link:hover,
 .head-info__link:focus {
