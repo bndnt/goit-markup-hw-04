@@ -371,6 +371,7 @@ color: #2e2f42;
 .team__occupation{
     letter-spacing: 0.02em;
     text-align: center; 
+    margin-bottom: 8px;
 }
 .team__soc-list{
     display: flex;
@@ -430,7 +431,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
     overflow: hidden;
 }
-.portfolio__list-top-cover:hover .portfolio__hidden-p{
+.portfolio__list:hover .portfolio__hidden-p{
     transform: translateY(0%);
 }
 .portfolio__hidden-p{
